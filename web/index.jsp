@@ -8,9 +8,19 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
+    <style>
+      #header {
+        background-color : darkslategrey;
+        font-family : SansSerif;
+        font-size: 50px;
+      }
+    </style>
     <title>$Title$</title>
   </head>
   <body>
-  $END$
+    <header id="header" class="header">
+      <a href="/hello.jh">$END$</a>
+      <img src="/image/logo.svg"></img>
+    </header>
   </body>
 </html>
