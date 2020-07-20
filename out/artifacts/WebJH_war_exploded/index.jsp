@@ -38,10 +38,10 @@
      <!-- <img src="/image/logo.svg"></img>-->
     </header>
     <div id="Contents">
-      <a href="#">Content Area</a>
+      <a href="/data.json">Content Area</a>
     </div>
     <footer>
-      <a href="#">Footer Area</a>
+      <a href="/image/goodbye.jh">Footer Area</a>
     </footer>
   </body>
 </html>
