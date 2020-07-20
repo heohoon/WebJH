@@ -9,18 +9,39 @@
 <html>
   <head>
     <style>
-      #header {
-        background-color : darkslategrey;
-        font-family : SansSerif;
-        font-size: 50px;
+      a {
+        text-decoration: none;
+        text-align: right;
       }
+      header {
+        background-color : palegoldenrod;
+        font-family : "Sans Serif";
+        font-size: 25px;
+      }
+      #Contents {
+        background-color: goldenrod;
+        font-family : "Sans Serif";
+        font-size: 25px;
+      }
+      footer {
+        background-color : coral;
+        font-family : "Sans Serif";
+        font-size: 25px;
+      }
+
     </style>
     <title>$Title$</title>
   </head>
   <body>
     <header id="header" class="header">
-      <a href="/hello.jh">$END$</a>
-      <img src="/image/logo.svg"></img>
+      <a href="/hello.jh">Header Area</a>
+     <!-- <img src="/image/logo.svg"></img>-->
     </header>
+    <div id="Contents">
+      <a href="#">Content Area</a>
+    </div>
+    <footer>
+      <a href="#">Footer Area</a>
+    </footer>
   </body>
 </html>
