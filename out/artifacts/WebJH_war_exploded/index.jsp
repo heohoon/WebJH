@@ -9,6 +9,9 @@
 <html>
   <head>
     <style>
+      form {
+        margin : 0px;
+      }
       a {
         text-decoration: none;
         text-align: right;
@@ -33,12 +36,26 @@
     <title>$Title$</title>
   </head>
   <body>
+
     <header id="header" class="header">
       <a href="/hello.jh">Header Area</a>
      <!-- <img src="/image/logo.svg"></img>-->
     </header>
     <div id="Contents">
       <a href="/data.json">Content Area</a>
+      <form>
+        <div>
+          <label>ID :</label>
+          <label>PASSWORD :</label>
+        </div>
+        <div>
+          <input type="text" placeholder="input your ID">
+          <input type="password" placeholder="input your PASSWORD">
+        </div>
+        <div>
+          <input type="submit">
+        </div>
+      </form>
     </div>
     <footer>
       <a href="/image/goodbye.jh">Footer Area</a>
